@@ -1,0 +1,59 @@
+:root {
+    --varcor01: #f96880;
+    --varcor02: #fed8df;
+    --varcor03: #5b0d1a;
+}
+
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+* {
+    background: var(--varcor02);
+    text-align: center;
+    margin-top:30px;
+}
+span {
+    color: var(--varcor03);
+    border-radius: 20px;
+}
+
+p {
+    color: var(--varcor03);
+}
+
+header > p {
+    background-color: var(--varcor01);
+    border-radius: 20px;
+    color: #fff;
+    padding:20px;
+    margin:auto;
+}
+
+
+
+@media(min-width:768px) {
+    
+* {
+    margin-top:50px;
+    padding: 10px 80px; 
+    margin:auto;
+}
+
+body {
+    margin:0 50px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+header > p {
+    padding:30px;
+    margin:auto;
+}
+
+}
